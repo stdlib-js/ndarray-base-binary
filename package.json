@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-any-is-entry-in": "github:stdlib-js/array-base-assert-any-is-entry-in#main",
+    "@stdlib/array-base-any-is-entry-in": "github:stdlib-js/array-base-any-is-entry-in#main",
     "@stdlib/ndarray-base-binary-loop-interchange-order": "^0.2.2",
     "@stdlib/ndarray-base-binary-tiling-block-size": "^0.2.2",
     "@stdlib/ndarray-base-iteration-order": "^0.2.2",
