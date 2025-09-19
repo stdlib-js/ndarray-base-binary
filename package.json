@@ -69,6 +69,7 @@
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-sqrt": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-row-major-string": "github:stdlib-js/ndarray-base-assert-is-row-major-string#main",
+    "@stdlib/ndarray-base-nullary-tiling-block-size": "^0.2.2",
     "@stdlib/ndarray-base-shape2strides": "^0.2.2",
     "@stdlib/ndarray-base-strides2offset": "^0.2.2",
     "@stdlib/ndarray-base-to-array": "^0.2.1",
