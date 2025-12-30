@@ -137,15 +137,6 @@ The function accepts the following arguments:
 -   **arrays**: array-like object containing two input ndarrays and one output ndarray.
 -   **fcn**: binary function to apply.
 
-Each provided ndarray should be an object with the following properties:
-
--   **dtype**: data type.
--   **data**: data buffer.
--   **shape**: dimensions.
--   **strides**: stride lengths.
--   **offset**: index offset.
--   **order**: specifies whether an ndarray is row-major (C-style) or column major (Fortran-style).
-
 </section>
 
 <!-- /.usage -->
@@ -155,6 +146,16 @@ Each provided ndarray should be an object with the following properties:
 <section class="notes">
 
 ## Notes
+
+
+-   Each provided ndarray should be an object with the following properties:
+
+    -   **dtype**: data type.
+    -   **data**: data buffer.
+    -   **shape**: dimensions.
+    -   **strides**: stride lengths.
+    -   **offset**: index offset.
+    -   **order**: specifies whether an ndarray is row-major (C-style) or column major (Fortran-style).
 
 -   For very high-dimensional ndarrays which are non-contiguous, one should consider copying the underlying data to contiguous memory before applying a binary function in order to achieve better performance.
 
@@ -285,8 +286,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
