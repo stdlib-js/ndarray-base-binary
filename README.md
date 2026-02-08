@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import binary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-binary@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-binary/tags). For example,
+
+```javascript
 import binary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-binary@v0.1.1-deno/mod.js';
 ```
 
@@ -160,7 +165,7 @@ import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@deno/mod.js';
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
-import binary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-binary@v0.1.1-deno/mod.js';
+import binary from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-binary@deno/mod.js';
 
 var N = 10;
 var x = {
