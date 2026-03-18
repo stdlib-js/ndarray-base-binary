@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-11)
+## Unreleased (2026-03-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`6f315ad`](https://github.com/stdlib-js/stdlib/commit/6f315ad87f17870b81b176846bec718057ddadf6) - **bench:** refactor to use string interpolation in `ndarray/base/binary` [(#11018)](https://github.com/stdlib-js/stdlib/pull/11018) _(by Partha Das)_
 -   [`0ae8a91`](https://github.com/stdlib-js/stdlib/commit/0ae8a917f3759d3228e59c3945b348398a21c7b7) - **docs:** remove extra empty line [(#10168)](https://github.com/stdlib-js/stdlib/pull/10168) _(by stdlib-bot)_
 
 </details>
@@ -19,6 +20,18 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
