@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,18 +16,34 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Apply a binary callback to elements in input ndarrays and assign results to elements in an output ndarray.
+* Callback invoked for ndarray elements.
 *
-* @module @stdlib/ndarray-base-binary
+* @param x - first ndarray element
+* @param y - second ndarray element
+* @returns result
+*/
+type Binary = ( x: any, y: any ) => any;
+
+/**
+* Applies a binary callback to elements in input ndarrays and assigns results to elements in an output ndarray.
+*
+* @param arrays - array-like object containing two input ndarrays and one output ndarray
+* @param fcn - binary callback
+* @throws arrays must have the same number of dimensions
+* @throws arrays must have the same shape
 *
 * @example
 * var Float64Array = require( '@stdlib/array-float64' );
 * var ndarray = require( '@stdlib/ndarray-ctor' );
 * var getData = require( '@stdlib/ndarray-data-buffer' );
-* var binary = require( '@stdlib/ndarray-base-binary' );
 *
 * function add( a, b ) {
 *     return a + b;
@@ -62,12 +78,9 @@
 * console.log( getData( z ) );
 * // => <Float64Array>[ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function binary( arrays: ArrayLike<ndarray>, fcn: Binary ): void;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = binary;
